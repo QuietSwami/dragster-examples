@@ -32,4 +32,5 @@ defs = Definitions(
 )
 
 if __name__ == "__main__":
+    # Execute the job in-process - this is a simple way to run a job in a script
     defs.get_job_def("asset_job").execute_in_process()
